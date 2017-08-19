@@ -83,7 +83,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\AbstractBackground.cpp" />
     <ClCompile Include="src\AbstractScene.cpp" />
+    <ClCompile Include="src\Background01.cpp" />
+    <ClCompile Include="src\Background01spell.cpp" />
     <ClCompile Include="src\Board.cpp" />
     <ClCompile Include="src\CalcUtils.cpp" />
     <ClCompile Include="src\Define.cpp" />
@@ -97,11 +100,15 @@
     <ClCompile Include="src\Pad.cpp" />
     <ClCompile Include="src\Parameter.cpp" />
     <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Surface.cpp" />
     <ClCompile Include="src\SystemMain.cpp" />
     <ClCompile Include="src\TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\AbstractBackground.h" />
     <ClInclude Include="src\AbstractScene.h" />
+    <ClInclude Include="src\Background01.h" />
+    <ClInclude Include="src\Background01spell.h" />
     <ClInclude Include="src\Board.h" />
     <ClInclude Include="src\CalcUtils.h" />
     <ClInclude Include="src\Define.h" />
@@ -118,6 +125,7 @@
     <ClInclude Include="src\Parameter.h" />
     <ClInclude Include="src\Player.h" />
     <ClInclude Include="src\Singleton.h" />
+    <ClInclude Include="src\Surface.h" />
     <ClInclude Include="src\SystemMain.h" />
     <ClInclude Include="src\Task.h" />
     <ClInclude Include="src\TitleScene.h" />

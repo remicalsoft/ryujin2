@@ -3,8 +3,12 @@
 
 Image::Image()
 {
-    _player = myLoadGraph("../dat/image/player/body/seishi0.png");
-    _board  = myLoadGraph("../dat/image/board/board.png");
+    _player       = myLoadGraph("../dat/image/player/body/seishi0.png");
+    _board        = myLoadGraph("../dat/image/board/board.png");
+    _fusuma       = myLoadGraph("../dat/image/background/01/fusuma.png");
+    _floor        = myLoadGraph("../dat/image/background/01/floor.png");
+    _backSpell00  = myLoadGraph("../dat/image/background/01spell/00.png");
+    _backSpell01  = myLoadGraph("../dat/image/background/01spell/01.png");
 }
 
 /*!

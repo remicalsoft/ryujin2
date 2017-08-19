@@ -36,6 +36,15 @@
     <Filter Include="ソース ファイル\Board">
       <UniqueIdentifier>{411501ab-01ac-4989-aa5b-9fee799af174}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Background">
+      <UniqueIdentifier>{07b560f8-4d27-445e-85c0-cc679c3f93cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Background\01">
+      <UniqueIdentifier>{b5f8a9f6-516b-4e9f-a2e1-eece38d90490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Background\01spell">
+      <UniqueIdentifier>{0f213334-f4d1-483c-9c30-036de3a5958a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -85,6 +94,12 @@
     </ClCompile>
     <ClCompile Include="src\Board.cpp">
       <Filter>ソース ファイル\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AbstractBackground.cpp">
+      <Filter>ソース ファイル\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Background01spell.cpp">
+      <Filter>ソース ファイル\Background\01spell</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +162,12 @@
     </ClInclude>
     <ClInclude Include="src\Board.h">
       <Filter>ソース ファイル\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AbstractBackground.h">
+      <Filter>ソース ファイル\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Background01spell.h">
+      <Filter>ソース ファイル\Background\01spell</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
