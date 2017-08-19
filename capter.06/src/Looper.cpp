@@ -2,6 +2,7 @@
 #include "TitleScene.h"
 #include "Error.h"
 #include "GameScene.h"
+#include "Macro.h"
 
 using namespace std;
 
@@ -39,9 +40,9 @@ void Looper::onSceneChanged(const eScene scene, const Parameter& parameter, cons
         break;
     case Game:
         _sceneStack.push(make_shared<GameScene>(this, parameter));
-        break;
+//        break;
     default:
-        //どうしようもないエラー発生
+        ERR("あるはずのないシーンが呼ばれました");
         break;
     }
 }

@@ -85,5 +85,8 @@
     <ClInclude Include="src\GameScene.h">
       <Filter>ソース ファイル\Game</Filter>
     </ClInclude>
+    <ClInclude Include="src\Macro.h">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

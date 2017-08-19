@@ -1,6 +1,6 @@
 #pragma once
 
 enum eScene {
-    Title,
-    Game,
+    Title,  //タイトル画面
+    Game,   //ゲーム画面
 };

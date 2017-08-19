@@ -101,6 +101,7 @@
     <ClInclude Include="src\GameScene.h" />
     <ClInclude Include="src\IOnSceneChangedListener.h" />
     <ClInclude Include="src\Looper.h" />
+    <ClInclude Include="src\Macro.h" />
     <ClInclude Include="src\Parameter.h" />
     <ClInclude Include="src\SystemMain.h" />
     <ClInclude Include="src\Task.h" />
