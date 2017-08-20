@@ -9,12 +9,12 @@ using namespace std;
 
 EnemyManager::EnemyManager()
 {
-    _list.emplace_back(make_shared<SmallEnemy >(Define::CENTER_X,     100));
-    _list.emplace_back(make_shared<NormalEnemy>(Define::CENTER_X-200, 150));
-    _list.emplace_back(make_shared<BigEnemy>   (Define::CENTER_X+200, 200));
-    _list.emplace_back(make_shared<SmallEnemy >(Define::CENTER_X,     250));
-    _list.emplace_back(make_shared<NormalEnemy>(Define::CENTER_X-200, 300));
-    _list.emplace_back(make_shared<BigEnemy>   (Define::CENTER_X+200, 350));
+    _list.emplace_back(make_shared<SmallEnemy >(Define::CENTER_X+0.f,   100.f));
+    _list.emplace_back(make_shared<NormalEnemy>(Define::CENTER_X-200.f, 150.f));
+    _list.emplace_back(make_shared<BigEnemy>   (Define::CENTER_X+200.f, 200.f));
+    _list.emplace_back(make_shared<SmallEnemy >(Define::CENTER_X+0.f,   250.f));
+    _list.emplace_back(make_shared<NormalEnemy>(Define::CENTER_X-200.f, 300.f));
+    _list.emplace_back(make_shared<BigEnemy>   (Define::CENTER_X+200.f, 350.f));
 
     for (auto enemy : _list) {
         enemy->initialize();

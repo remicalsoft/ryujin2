@@ -10,10 +10,10 @@ const static float SCROLL_SPEED = 2.f;
 
 Background01spell::Background01spell()
 {
-    _list[0] = make_shared<Quadrangle>(0, IMG_HEIGHT * 0, Image::getIns()->getBackSpell00());
-    _list[1] = make_shared<Quadrangle>(0, IMG_HEIGHT * 1, Image::getIns()->getBackSpell01());
-    _list[2] = make_shared<Quadrangle>(0, IMG_HEIGHT * 2, Image::getIns()->getBackSpell00());
-    _list[3] = make_shared<Quadrangle>(0, IMG_HEIGHT * 3, Image::getIns()->getBackSpell01());
+    _list[0] = make_shared<Quadrangle>(0.f, IMG_HEIGHT * 0.f, Image::getIns()->getBackSpell00());
+    _list[1] = make_shared<Quadrangle>(0.f, IMG_HEIGHT * 1.f, Image::getIns()->getBackSpell01());
+    _list[2] = make_shared<Quadrangle>(0.f, IMG_HEIGHT * 2.f, Image::getIns()->getBackSpell00());
+    _list[3] = make_shared<Quadrangle>(0.f, IMG_HEIGHT * 3.f, Image::getIns()->getBackSpell01());
 }
 
 bool Background01spell::update()
