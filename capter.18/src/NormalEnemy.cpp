@@ -5,7 +5,7 @@
 
 NormalEnemy::NormalEnemy(float x, float y) : AbstractEnemy(x,y)
 {
-    _moveID = 1;
+    _movePatternID = 1;
 }
 
 void NormalEnemy::draw() const

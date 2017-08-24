@@ -5,7 +5,7 @@
 
 BigEnemy::BigEnemy(float x, float y) : AbstractEnemy(x, y)
 {
-    _moveID = 0;
+    _movePatternID = 0;
 }
 
 void BigEnemy::draw() const

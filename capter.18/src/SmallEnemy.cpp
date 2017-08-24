@@ -5,7 +5,7 @@
 
 SmallEnemy::SmallEnemy(float x, float y) : AbstractEnemy(x,y)
 {
-    _moveID = 2;
+    _movePatternID = 2;
 }
 
 void SmallEnemy::draw() const

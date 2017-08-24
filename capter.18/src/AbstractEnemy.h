@@ -22,7 +22,7 @@ public:
     float getSpeed() { return _speed; }
     void  setAngle(float angle) { _angle = angle; }
     float getAngle() { return _angle; }
-    int   getMoveID() { return _moveID;  }
+    int   getMoveID() { return _movePatternID;  }
 
 protected:
     virtual void setSize() = 0;
@@ -38,6 +38,6 @@ protected:
     int _width; //幅
     int _height;//高さ
 
-    int _moveID;//移動パターン
+    int _movePatternID;//移動パターン
 };
 
