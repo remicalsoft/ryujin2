@@ -12,7 +12,7 @@ EnemyMover::EnemyMover()
 
 void EnemyMover::move(AbstractEnemy* enemy)
 {
-    const unsigned int id = enemy->getMoveID();
+    const unsigned int id = enemy->getMovePatternID();
     if (_movePattern.size() <= id) {
         ERR("moveID‚ª•s³‚Å‚·");
     }
