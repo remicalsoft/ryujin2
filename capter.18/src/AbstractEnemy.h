@@ -13,16 +13,16 @@ public:
     void initialize();
     bool update() override;
 
-    float getX() { return _x; }
+    float getX() const  { return _x; }
     void  setX(float x) { _x = x; }
-    float getY() { return _y; }
+    float getY() const  { return _y; }
     void  setY(float y) { _y = y; }
-    int   getCounter() { return _counter; }
+    int   getCounter() const    { return _counter; }
     void  setSpeed(float speed) { _speed = speed; }
-    float getSpeed() { return _speed; }
+    float getSpeed()  const     { return _speed; }
     void  setAngle(float angle) { _angle = angle; }
-    float getAngle() { return _angle; }
-    int   getMovePatternID() { return _movePatternID;  }
+    float getAngle() const      { return _angle; }
+    int   getMovePatternID() const { return _movePatternID;  }
 
 protected:
     virtual void setSize() = 0;
